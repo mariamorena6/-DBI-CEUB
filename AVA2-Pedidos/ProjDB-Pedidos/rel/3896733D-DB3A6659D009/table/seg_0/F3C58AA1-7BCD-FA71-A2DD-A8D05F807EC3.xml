@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3C58AA1-7BCD-FA71-A2DD-A8D05F807EC3" name="ItensPedidos">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>8C81BACF-8406-FC53-DF81-0EFC52F07BC4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="1F782098-070D-C924-3D1D-24DA11882344">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>F5B434E4-4E4E-4D64-5B7B-5C2FCAB8EA69</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="0CEE3D57-4118-70F1-62C2-5FB50AEA7B51">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>56596160-1541-B7EC-AE40-942498DB7A9F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoProduto" id="D769FBB8-095D-91DB-8F4B-F08040EF1B1D">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>E64ED753-EDA4-5674-ED6B-33084F555750</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProduto" id="7DD935FC-1D81-A963-C18D-2A169FF44BCD">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>1B09C610-B548-3CD8-52A1-45A43C8B81FE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="B0499846-867E-B94B-8BE4-BB7D8038DD1B">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>27BEC36D-38D5-647E-0CAE-B9E41E32D53F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_numeroPedido" id="6FB20EF2-C36F-B4BA-5914-1E842EC600E9">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>1CE116A0-6A13-675E-E671-8654D7E3F228</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15BFB2CD-56BD-2574-B748-6488450EAC53" referredColumn="C4F88DB4-2EF4-7BE7-8C74-D4FD2A0D964E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7BEAF88-46CA-2242-EF36-DC3E2154EE45" name="ItensPedidos_PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>11495151-35BA-52DB-65F0-D21A6DBBA734</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F782098-070D-C924-3D1D-24DA11882344"/>
+<colUsage columnID="0CEE3D57-4118-70F1-62C2-5FB50AEA7B51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FABDD01-A024-8C00-E026-0B31FB8E13C7" name="ItensPedidos_Pedidos_FK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>DE5F6C4F-7CAE-A958-5EC1-B13D814342DB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB20EF2-C36F-B4BA-5914-1E842EC600E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

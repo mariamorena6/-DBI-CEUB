@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA992E78-B785-BCDB-10ED-270B0E227C32" name="Cliente">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:42:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="8EF9762B-0D33-9ADC-79DC-DF03F856EDE7">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:42:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="E316C336-36F7-AC90-F563-033D7FE11EA9">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:42:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="30EF4353-6509-1BED-DB3B-DF28DDF12A85">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:43:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailCliente" id="F703D9FD-DEEE-D281-CD2D-8E5BB22930FF">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:43:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="9B9F2ABC-0B58-00BE-209F-D8C1FE03DED5">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:43:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA1A8409-814A-6977-1782-6BDEE8F8785C" name="Cliente PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-08 23:42:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="3896733D-7FF6-D13A-A80B-DB3A6659D009" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EF9762B-0D33-9ADC-79DC-DF03F856EDE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

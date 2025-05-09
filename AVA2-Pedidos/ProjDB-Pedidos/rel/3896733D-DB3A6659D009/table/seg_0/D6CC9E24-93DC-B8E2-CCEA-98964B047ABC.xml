@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6CC9E24-93DC-B8E2-CCEA-98964B047ABC" name="EnderecoCliente">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>D7A195FC-A1FD-1955-9830-681FBA8DF121</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="21482F0D-2844-2F02-142E-2E663438E8F5">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>FCD80771-ECA5-CC82-2ADA-2AC3BED47748</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEnderecoCliente" id="510BA974-2E86-5403-57AE-E72E11FB8CF0">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>EFD054AE-67A7-EAA4-132F-BB0BDE0C6D79</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEnderecoCliente" id="8B89DA56-B4D1-0B58-0582-456217C8CE58">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>42B74CB9-14D0-98AF-A6F5-F28A247D7953</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="A6D20E3F-E6E7-987E-1BE7-DF421DCBE65F">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>29C968D3-6A53-CBE8-4624-0F9E35ABDC0E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="207DB776-AC88-9215-35F7-B3779F56A714">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>5484A7C6-E410-56F1-AF99-71D88A25B6A9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="76BDD668-339B-12B4-4F7D-5D49DCB2E30A">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>2A279BE4-349E-5406-2BAF-1D61F5DDF956</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="EF2585F5-D492-AADE-B940-0873EDECB261">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>EE8D806B-93B6-AEA7-BD6B-7362CE1B470A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="53471FBA-E5BD-E8C6-01AD-F39C3E887125">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>A3C404AE-8A2A-2C6B-F05D-DC8C1B832E44</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECCB76C3-FB4E-2DFB-20CC-5D05571157B0" referredColumn="90C15E2D-D9EB-7957-DFAB-922CC9E0E8F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E051D2A8-21C3-12BD-6269-53B3622DB1C9" name="EnderecoCliente_PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>B2811714-C32E-267D-AA87-03474FB04366</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21482F0D-2844-2F02-142E-2E663438E8F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E347FE7B-6899-FB74-4A61-B598C5111D8B" name="EnderecoCliente_Cliente_FK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-09 00:33:40 UTC</createdTime>
+<generatorID>60B199D4-D16C-714E-8D9C-97C51FE504F6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53471FBA-E5BD-E8C6-01AD-F39C3E887125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
