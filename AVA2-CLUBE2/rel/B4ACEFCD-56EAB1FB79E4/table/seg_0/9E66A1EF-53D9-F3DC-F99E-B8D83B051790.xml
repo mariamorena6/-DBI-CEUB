@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E66A1EF-53D9-F3DC-F99E-B8D83B051790" name="AssociadoTitular">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>14202DFA-97B2-4CBA-F67A-39AC92A93821</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="5EF5CC21-07F5-84C2-4D2A-01CFA537AD38">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>C04AFA3D-C01A-DE4C-EB99-07DD32A70866</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeTitular" id="5F83F11A-BBF1-5977-4E30-5FB22788E4EB">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>7BD9CEF1-D443-2A47-16C8-1DE9F49ECADA</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneTitular" id="4A430C89-C69D-8ADF-0548-5222DDB68CA9">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>4D95E596-09DD-D1DE-E1B2-BB8A958BE8DD</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoTitular" id="4C2E8450-A640-D025-D8B0-39E7F05078D3">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>D8278BFE-9523-730B-3FA4-9D02082D9F73</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoTitular" id="A1F417A8-E24D-E62E-706F-E700DD8F6D1F">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>1EC00610-ADB0-4393-86DF-9250B7D3EFA9</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D850D24-1AF6-8BCD-0CF5-C0537E71C28F" name="AssociadoTitular_PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>C2395F0B-3A75-8098-A8E8-3FC52D380261</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF5CC21-07F5-84C2-4D2A-01CFA537AD38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

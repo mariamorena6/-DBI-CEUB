@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02347284-0A6B-E266-F2E5-1D6177B570B1" name="Endereco">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:43:48 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="D5E8BDEF-AE27-6659-3DF7-9A796B03358B">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:44:19 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="584CCDE2-642C-C444-9C89-96EF67BF42BF">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:45:08 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="5EB0CE41-0E64-4443-1B9A-4412467FCD73">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:46:19 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="6FB0930B-8D62-A534-8851-AB9DF9B2C481">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:47:06 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="DD48CA1E-0F8B-B010-69F4-59386329A9CF">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:48:52 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="8DA16030-745B-955B-5816-705CF12D8E0A">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:43:40 UTC</createdTime>
+<generatorID>4503DEE8-FEE7-262F-53D2-AEF751358A4B</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<referedAttribute>C04AFA3D-C01A-DE4C-EB99-07DD32A70866</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="D9BD134D-2B0D-B5A9-C74C-50653ECD766B">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:43:44 UTC</createdTime>
+<generatorID>1EB4007F-EDA5-0266-312C-5040485D4A92</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<referedAttribute>BF7B45E2-D55B-F2B9-86E3-CF9CD9156E4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A000C9D-F378-9CDB-E7EC-2C67E22D1736" name="EnderecoTitular PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:45:06 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5E8BDEF-AE27-6659-3DF7-9A796B03358B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

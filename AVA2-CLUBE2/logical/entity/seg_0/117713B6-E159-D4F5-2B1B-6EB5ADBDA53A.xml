@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="117713B6-E159-D4F5-2B1B-6EB5ADBDA53A" name="Dependente">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:29:38 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="BF7B45E2-D55B-F2B9-86E3-CF9CD9156E4E">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:30:41 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="F17CB969-CE69-9348-70EA-E7A249A1A503">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:30:58 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauParentesc" id="19D78872-8A35-7DDB-05F8-E727716E6083">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:33:27 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="908A426C-5CE5-9D22-5F9F-5906843A7105">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:34:25 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoDependente" id="BD65C5A5-6EC2-358D-B7BC-0376C9484552">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:34:47 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDependente" id="88FA47A5-4035-0B10-0BFE-95A0D3AA459F">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:35:14 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="B883A0DC-D886-AC72-CCBE-DF240C277AEF">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:30:14 UTC</createdTime>
+<generatorID>95EF9F7E-7078-5250-CEC5-191903DD0A47</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<referedAttribute>C04AFA3D-C01A-DE4C-EB99-07DD32A70866</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="287ADEA5-53FB-678E-AD85-C75A3BB26A6A" name="Dependente PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:30:56 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF7B45E2-D55B-F2B9-86E3-CF9CD9156E4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

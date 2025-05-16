@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C88E179-FD6B-D2CA-C529-E16016CDCCA2" containerWithKeyObject="633EB04F-9DB6-A135-8124-FA2E32422EB9" localFKIndex="15C2DE74-7E8F-AF74-9DD0-6BF150D44D8E" name="Endereco_AssociadoTitular_FK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>4503DEE8-FEE7-262F-53D2-AEF751358A4B</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<referredTableLongName>AssociadoTitular</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E66A1EF-53D9-F3DC-F99E-B8D83B051790</referredTableID>
+<keyObject>0D850D24-1AF6-8BCD-0CF5-C0537E71C28F</keyObject>
+<referredKeyID>0D850D24-1AF6-8BCD-0CF5-C0537E71C28F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfTitular</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

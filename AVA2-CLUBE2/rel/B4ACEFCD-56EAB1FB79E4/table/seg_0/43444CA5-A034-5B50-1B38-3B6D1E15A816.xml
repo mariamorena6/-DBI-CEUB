@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43444CA5-A034-5B50-1B38-3B6D1E15A816" name="Mensalidade">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>9B2AFADF-C3C1-4834-136A-6B9927F4B05F</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeTitular" id="1317261D-4D32-E039-5688-B75B11B8AA4D">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>C8C80295-5184-B6EB-1858-08812FFAF1BC</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfTitular" id="D499351E-FA8A-C2E7-7D1C-3019147401B5">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>B7590223-297B-BFB7-C3A2-439AFDE754F3</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorMensalidade" id="AE2F7315-EBBC-9180-A080-B68D26117066">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>01BEA654-DF2C-FEB3-8096-F26F7354DD78</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataVencimentoMensalidade" id="B46BD357-E738-F67F-0A3E-E849BDE655E5">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>4D6FB027-3163-D088-4D23-19FB43FD618F</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssociadoTitular_cpfTitular" id="157E1928-7A08-30B2-AD37-D43BB9E4C781">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>04B25912-7B99-4CA0-6823-50F7351307DD</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="068AF693-55CC-A890-EF1C-0F4CA03B3094" referredColumn="5EF5CC21-07F5-84C2-4D2A-01CFA537AD38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B547F38-2115-5F5A-4718-9FA0F09BE17A" name="Mensalidade_PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>5E07F783-A029-737A-7D36-F10BD4000D96</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1317261D-4D32-E039-5688-B75B11B8AA4D"/>
+<colUsage columnID="D499351E-FA8A-C2E7-7D1C-3019147401B5"/>
+<colUsage columnID="157E1928-7A08-30B2-AD37-D43BB9E4C781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D78A9A9E-A3D5-DD31-A40D-E39D3119A72D" name="Mensalidade_AssociadoTitular_FK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>CB60C4C1-B2C5-FDCC-6974-37FEA0246AAB</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="157E1928-7A08-30B2-AD37-D43BB9E4C781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

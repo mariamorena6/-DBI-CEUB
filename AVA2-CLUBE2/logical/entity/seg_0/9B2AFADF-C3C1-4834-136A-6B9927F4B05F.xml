@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B2AFADF-C3C1-4834-136A-6B9927F4B05F" name="Mensalidade">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:36:33 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeTitular" id="C8C80295-5184-B6EB-1858-08812FFAF1BC">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:37:49 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="B7590223-297B-BFB7-C3A2-439AFDE754F3">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:38:33 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="01BEA654-DF2C-FEB3-8096-F26F7354DD78">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:40:14 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimentoMensalidade" id="4D6FB027-3163-D088-4D23-19FB43FD618F">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:40:57 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="04B25912-7B99-4CA0-6823-50F7351307DD">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:29:55 UTC</createdTime>
+<generatorID>CB60C4C1-B2C5-FDCC-6974-37FEA0246AAB</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="true"/>
+</engineerTo>
+<referedAttribute>C04AFA3D-C01A-DE4C-EB99-07DD32A70866</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E07F783-A029-737A-7D36-F10BD4000D96" name="Mensalidade PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-15 23:38:31 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4ACEFCD-82FC-AFA8-86C3-56EAB1FB79E4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8C80295-5184-B6EB-1858-08812FFAF1BC</attributeRef>
+<attributeRef>B7590223-297B-BFB7-C3A2-439AFDE754F3</attributeRef>
+<attributeRef>04B25912-7B99-4CA0-6823-50F7351307DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

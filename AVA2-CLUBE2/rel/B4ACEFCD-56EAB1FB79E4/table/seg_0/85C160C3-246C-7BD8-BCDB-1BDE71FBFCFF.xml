@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85C160C3-246C-7BD8-BCDB-1BDE71FBFCFF" name="Dependente">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>117713B6-E159-D4F5-2B1B-6EB5ADBDA53A</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="BD212E10-0A12-4250-8359-ABD270944ACE">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>BF7B45E2-D55B-F2B9-86E3-CF9CD9156E4E</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDependente" id="06280A85-67E3-A3BD-F7F1-1C87B2221530">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>F17CB969-CE69-9348-70EA-E7A249A1A503</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grauParentesc" id="BECEFAB5-AF5A-B686-2E1A-60A70004E150">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>19D78872-8A35-7DDB-05F8-E727716E6083</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneDependente" id="67140F81-0514-36A1-9750-29B99B550284">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>908A426C-5CE5-9D22-5F9F-5906843A7105</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoDependente" id="24939DE9-392D-2E52-4617-0F68A006CECE">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>BD65C5A5-6EC2-358D-B7BC-0376C9484552</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoDependente" id="06A86393-F3F5-958F-0D8E-317D7D425620">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>88FA47A5-4035-0B10-0BFE-95A0D3AA459F</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssociadoTitular_cpfTitular" id="7A684064-8D67-6490-3E4E-B69F0010385D">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>B883A0DC-D886-AC72-CCBE-DF240C277AEF</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95011E12-6277-DA9C-3104-64D7DA501867" referredColumn="5EF5CC21-07F5-84C2-4D2A-01CFA537AD38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A0527C1-F958-9669-9955-DC9AA04E802A" name="Dependente_PK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>287ADEA5-53FB-678E-AD85-C75A3BB26A6A</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD212E10-0A12-4250-8359-ABD270944ACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C600DD3-B913-D21D-BF38-26DF984ED180" name="Dependente_AssociadoTitular_FK">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-05-16 00:45:47 UTC</createdTime>
+<generatorID>95EF9F7E-7078-5250-CEC5-191903DD0A47</generatorID>
+<ownerDesignName>AVA2-CLUBE2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A684064-8D67-6490-3E4E-B69F0010385D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
